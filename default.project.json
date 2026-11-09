@@ -1,0 +1,83 @@
+{
+  "name": "Steal a Mystery Box!",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$className": "Folder",
+        "Configs": {
+          "$path": "src/shared/configs"
+        },
+        "Network": {
+          "$path": "src/shared/Network.luau"
+        },
+        "Remotes": {
+          "$className": "Folder"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Main": {
+        "$path": "src/server/main.server.luau"
+      },
+      "Services": {
+        "$path": "src/server/services"
+      }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Assets": {
+        "$className": "Folder",
+        "MysteryBoxModels": {
+          "$className": "Folder"
+        },
+        "CollectibleModels": {
+          "$className": "Folder"
+        },
+        "PlotPrefabs": {
+          "$className": "Folder"
+        }
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Controllers": {
+          "$path": "src/client/controllers"
+        },
+        "Main": {
+          "$path": "src/client/main.client.luau"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "World": {
+        "$className": "Folder",
+        "Safezone": {
+          "$className": "Folder"
+        },
+        "Biomes": {
+          "$className": "Folder",
+          "Urban": {
+            "$className": "Folder"
+          },
+          "Slums": {
+            "$className": "Folder"
+          }
+        },
+        "PlayerPlots": {
+          "$className": "Folder"
+        }
+      }
+    }
+  }
+}
